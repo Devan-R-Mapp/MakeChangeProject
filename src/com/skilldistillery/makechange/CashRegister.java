@@ -1,9 +1,12 @@
 package com.skilldistillery.makechange;
 
+import java.util.Scanner;
+
 public class CashRegister {
 
 	public static void main(String[] args) {
 		
+		Scanner sc = new Scanner(System.in);
 //		User Story #1
 //		The user is prompted asking for the price of the item.
 //
