@@ -5,11 +5,15 @@ import java.util.Scanner;
 public class CashRegister {
 
 	public static void main(String[] args) {
-		
 		Scanner sc = new Scanner(System.in);
-//		User Story #1
-//		The user is prompted asking for the price of the item.
-//
+
+		System.out.println("Please enter the price of the item being purchased: ");
+		double price = sc.nextDouble();
+		
+		System.out.println("Please enter the amount of money tendered by the customer: ");
+		double paid = sc.nextDouble();
+		
+	
 //		User Story #2
 //		The user is then prompted asking how much money was tendered by the customer.
 //
