@@ -12,7 +12,7 @@ Cash register simulator. to use simply enter the price of the item and then ente
 * Java
 * Eclipse
 * Problem solving skills
-
+* Humility
 
 
 
@@ -21,3 +21,4 @@ Cash register simulator. to use simply enter the price of the item and then ente
 * Start by writing the problem out and making sure that you have a game plan before starting coding
 * take the program one step at a time in oreder a part works before breaking it
 * use printlns to know where you are and help in solving problems
+* when doing anything with money, convert everything to ints, otherwise you run into the problem of floating point errors, and those are no fun.
